@@ -74,7 +74,7 @@ namespace LockScreenToDesktop
             // Set up the delegate that will handle the change event.
             watcher.EventArrived += new EventArrivedEventHandler(HandleEvent);
 
-            // Start listening for events.
+            // Start listening for events. 
             watcher.Start();
         }
 
